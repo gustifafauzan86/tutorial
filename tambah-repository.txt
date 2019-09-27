@@ -1,0 +1,83 @@
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ Git config --global user.name "gustifafauzan86"
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ Git config --global user.email "gustifafauzan86@gmail.com"
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ Git init
+Reinitialized existing Git repository in C:/mysql/.git/
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ Git add *
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ Git commit –m "python"
+error: pathspec '–m' did not match any file(s) known to git
+error: pathspec 'python' did not match any file(s) known to git
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ Git commit –m "Python"
+error: pathspec '–m' did not match any file(s) known to git
+error: pathspec 'Python' did not match any file(s) known to git
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ Git commit –m "mysql"
+error: pathspec '–m' did not match any file(s) known to git
+error: pathspec 'mysql' did not match any file(s) known to git
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ gi
+gio-querymodules.exe                gitk
+git.exe                             gitk.exe
+git-askyesno.exe                    git-lfs.exe
+git-credential-helper-selector.exe  git-receive-pack.exe
+git-flow                            git-upload-archive.exe
+git-gui.exe                         git-upload-pack.exe
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ git commit -m "python"
+[master (root-commit) dbddcbb] python
+ 1 file changed, 29 insertions(+)
+ create mode 100644 database.py
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ Git remote add origin https://github.com/gustifafauzan86/python.git
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ git push -u origin master
+
+
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ Git remote add origin https://github.com/gustifafauzan86/python.git
+fatal: remote origin already exists.
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ Git pull origin master
+fatal: couldn't find remote ref master
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ Git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+640078Taluremote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/gustifafauzan86/python.git/'
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+$ Git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 603 bytes | 301.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/gustifafauzan86/python.git
+ * [new branch]      master -> master
+
+A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
