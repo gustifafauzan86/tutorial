@@ -81,3 +81,5 @@ To https://github.com/gustifafauzan86/python.git
  * [new branch]      master -> master
 
 A'KOM@DESKTOP-RQ0MIVA MINGW64 /c/mysql (master)
+
+git remote set-url origin git@github.com:ppreyer/first_app.git
